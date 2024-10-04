@@ -8,3 +8,4 @@ sentencepiece==0.1.99
 onnxslim
 peft
 opencv-python
+tiktoken
