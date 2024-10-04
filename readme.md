@@ -1,10 +1,10 @@
-- 只是为了学习GOT-ocr原理以及onnxLLM这两个库。
-- 没有加速效果，master分支是带有kvcache的onnx推理
-- 先使用llm-export\llm_export.py导出onnx,   最后运行OnnxLLM\examples\got.py
-- v1分支为第一版本没有使用kvcache的推理
-- c++版本：使用mnn-llm 进行推理 https://github.com/BaofengZan/mnn-llm-GOT-OCR2.0
+- This is only for learning the GOT-ocr principle using onnxLLM.
+- No acceleration effect, master branch has onnx inference with kvcache
+- first use llm-export\llm_export.py to export onnx, then run OnnxLLM\examples\got.py
+- v1 branch is the first version that uses inference without kvcache
+- c++ version: use mnn-llm for inference https://github.com/BaofengZan/mnn-llm-GOT-OCR2.0
 
-参考链接：
+References:
 
 [Ucas-HaoranWei/GOT-OCR2.0: Official code implementation of General OCR Theory: Towards OCR-2.0 via a Unified End-to-end Model (github.com)](https://github.com/Ucas-HaoranWei/GOT-OCR2.0)
 
