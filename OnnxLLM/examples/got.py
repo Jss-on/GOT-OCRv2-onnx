@@ -93,7 +93,7 @@ prompt = conv.get_prompt()
 inputs = tokenizer(prompt)
 
 while(True):
-    imgpath = str(input("输入图像路径(输入q退出): "))
+    imgpath = str(input("Enter the image path (input q to exit): "))
     if(imgpath=="q"):
         exit(0)
     imgpath = imgpath.replace('\\', '/')
