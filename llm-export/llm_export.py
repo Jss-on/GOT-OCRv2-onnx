@@ -1389,7 +1389,7 @@ if __name__ == '__main__':
         'GOT':GOT
     }
     parser = argparse.ArgumentParser(description='llm_exporter', formatter_class=argparse.RawTextHelpFormatter)
-    parser.add_argument('--path', type=str, default="stepfun-ai/GOT-OCR2_0',
+    parser.add_argument('--path', type=str, default='stepfun-ai/GOT-OCR2_0',
                         help='path(`str` or `os.PathLike`):\nCan be either:'
                         '\n\t- A string, the *model id* of a pretrained model like `THUDM/chatglm-6b`. [TODO]'
                         '\n\t- A path to a *directory* clone from repo like `../chatglm-6b`.')
